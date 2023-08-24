@@ -1,8 +1,8 @@
 import { Router } from "express";
-import popClubRouter from "./pupClub";
+import pupClubRouter from "./pupClub";
 
 const router = Router();
 
-router.use("/popclub", popClubRouter);
+router.use("/pupclub", pupClubRouter);
 
 export default router;

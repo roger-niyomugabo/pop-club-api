@@ -5,9 +5,9 @@ import * as Validation from "../middlewares/validations/pupClub";
 const router = Router();
 
 router.post(
-  "/create",
-  Validation.pupClubCreateValidation,
-  PupClubController.create
+  "/register",
+  // Validation.pupClubCreateValidation,
+  PupClubController.pupclubRegister
 );
 
 export default router;
